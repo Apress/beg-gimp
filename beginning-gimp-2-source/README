@@ -1,0 +1,43 @@
+This folder contains source code related to the book
+Beginning GIMP: From Novice to Professional, 2nd Edition, by Akkana Peck.
+
+Files here:
+
+Text files:
+  README	This file.
+  COPYING	The GNU General Public License.
+
+Script-fu:
+  allmodes.scm
+    Given a small initial image, make a new image showing the input image
+    composited in all possible layer modes against a fixed-color background.
+    Used to make Figure 9-11.
+  colorcircles.scm
+    Composite three color circles to demonstrate additive or subtractive
+    color.  Used to make Figure 8-1.
+  sphere.scm
+    The standard sphere script from GIMP 2.3.
+  mysphere.scm
+    The sphere script as modified in Chapter 11 to use a
+    transparent background.
+
+Python scripts:
+  sphere.py
+    The unmodified Python sphere script from GIMP 2.3.
+
+Perl scripts:
+  mirrorsplit
+    The unmodified mirrorsplit script from the gimp-perl package.
+
+C Plug-in source code:
+  zealouscrop.c
+    The unmodified source code to Zealous Crop from GIMP 2.3.
+  autocropall.c
+    The Autocrop All Layers plug-in, derived from zealouscrop.c,
+    as written in Chapter 11.
+
+Copyright information:
+
+All source code and images in this directory are licensed under the
+GNU GENERAL PUBLIC LICENSE: see the file COPYING for more details.
+
